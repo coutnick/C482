@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e501099-5677-4134-91a8-4c487f1a8758" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../inventory/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inventory/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inventory/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inventory/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inventory/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inventory/pom.xml" beforeDir="false" />
+    <list default="true" id="066bafc8-a026-4953-a689-b24863099ab7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rains/finalproject/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rains/finalproject/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2J6JWykBsTndTxQLrlKJfg4J0kN" />
+  <component name="ProjectId" id="2J6Km7hQ7S9lDvWzk4tU7B5gRv3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,11 +53,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1e501099-5677-4134-91a8-4c487f1a8758" name="Changes" comment="" />
-      <created>1671392638007</created>
+      <changelist id="066bafc8-a026-4953-a689-b24863099ab7" name="Changes" comment="" />
+      <created>1671393250660</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671392638007</updated>
+      <updated>1671393250660</updated>
     </task>
     <servers />
   </component>
