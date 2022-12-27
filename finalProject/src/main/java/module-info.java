@@ -5,7 +5,10 @@ module rains.finalproject {
 
     opens rains.finalproject to javafx.fxml;
     opens controller to javafx.fxml;
+    opens model to javafx.fxml;
 
     exports rains.finalproject;
     exports controller;
+    exports model;
+
     }

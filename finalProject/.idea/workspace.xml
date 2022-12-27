@@ -4,29 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7dcd0ed-dbe6-42f3-963c-d732f63c5134" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AddPartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AddProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/MainScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ModifyPartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ModifyProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/MainScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/ModifyProduct.fxml" afterDir="false" />
+    <list default="true" id="a7dcd0ed-dbe6-42f3-963c-d732f63c5134" name="Changes" comment="added files, screens, and add part action event">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/InHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Outsourced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AddPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/AddPartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AddProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/AddProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ModifyPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ModifyPartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ModifyProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ModifyProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rains/finalproject/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rains/finalproject/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/addPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/AddPart.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/addProduct.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/mainScreen.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/modifyPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/ModifyPart.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/modifyProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/AddProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/AddPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/AddPart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/AddProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/AddProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/MainScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/MainScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/ModifyPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/ModifyPart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rains/finalproject/ModifyProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rains/finalproject/ModifyProduct.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671417829373</updated>
     </task>
+    <task id="LOCAL-00001" summary="added files, screens, and add part action event">
+      <created>1672099075270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672099075270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,10 +99,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="add all necessary screens and add part action event" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added files, screens, and add part action event" />
+    <option name="LAST_COMMIT_MESSAGE" value="added files, screens, and add part action event" />
   </component>
 </project>
