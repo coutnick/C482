@@ -17,32 +17,32 @@
       <Label layoutX="104.0" layoutY="225.0" text="Price" />
       <Label layoutX="104.0" layoutY="257.0" text="Max" />
       <Label layoutX="297.0" layoutY="257.0" text="Min" />
-      <TextField layoutX="176.0" layoutY="119.0" />
-      <TextField layoutX="176.0" layoutY="152.0" prefHeight="25.0" prefWidth="149.0" />
-      <TextField layoutX="176.0" layoutY="189.0" prefHeight="25.0" prefWidth="89.0" />
-      <TextField layoutX="176.0" layoutY="221.0" prefHeight="25.0" prefWidth="89.0" />
-      <TextField layoutX="176.0" layoutY="253.0" prefHeight="25.0" prefWidth="89.0" />
-      <TextField layoutX="338.0" layoutY="253.0" prefHeight="25.0" prefWidth="89.0" />
-      <TableView layoutX="546.0" layoutY="73.0" prefHeight="132.0" prefWidth="341.0">
+      <TextField fx:id="addProdIdTf" disable="true" editable="false" layoutX="176.0" layoutY="119.0" text="Auto Generated ID" />
+      <TextField fx:id="addProdNameTf" layoutX="176.0" layoutY="152.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="addProdInvTf" layoutX="176.0" layoutY="189.0" prefHeight="25.0" prefWidth="89.0" />
+      <TextField fx:id="addProdPriceTf" layoutX="176.0" layoutY="221.0" prefHeight="25.0" prefWidth="89.0" />
+      <TextField fx:id="addProdMaxTf" layoutX="176.0" layoutY="253.0" prefHeight="25.0" prefWidth="89.0" />
+      <TextField fx:id="addProdMinTf" layoutX="338.0" layoutY="253.0" prefHeight="25.0" prefWidth="89.0" />
+      <TableView fx:id="addProdPartTable" layoutX="546.0" layoutY="73.0" prefHeight="132.0" prefWidth="341.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="Part ID" />
-          <TableColumn prefWidth="75.0" text="Part Name" />
-            <TableColumn prefWidth="75.0" text="Inventory Level" />
-            <TableColumn prefWidth="114.0" text="Price/ Cost per Unit" />
+          <TableColumn fx:id="addProdPartIdCol" prefWidth="75.0" text="Part ID" />
+          <TableColumn fx:id="addProdPartNameCol" prefWidth="75.0" text="Part Name" />
+            <TableColumn fx:id="addProdPartInvCol" prefWidth="75.0" text="Inventory Level" />
+            <TableColumn fx:id="addProdPartCostCol" prefWidth="114.0" text="Price/ Cost per Unit" />
         </columns>
       </TableView>
-      <TableView layoutX="546.0" layoutY="246.0" prefHeight="132.0" prefWidth="341.0">
+      <TableView fx:id="addProdAssociatedTable" layoutX="546.0" layoutY="246.0" prefHeight="132.0" prefWidth="341.0">
          <columns>
-            <TableColumn prefWidth="75.0" text="Part ID" />
-            <TableColumn prefWidth="75.0" text="Part Name" />
-            <TableColumn prefWidth="75.0" text="Inventory Level" />
-            <TableColumn prefWidth="115.0" text="Price/ Cost per Unit" />
+            <TableColumn fx:id="addProdAssociatedPartIdCol" prefWidth="75.0" text="Part ID" />
+            <TableColumn fx:id="addProdAssociatedPartNameCol" prefWidth="75.0" text="Part Name" />
+            <TableColumn fx:id="addProdAssociatedInvCol" prefWidth="75.0" text="Inventory Level" />
+            <TableColumn fx:id="addProdAssociatedCostCol" prefWidth="115.0" text="Price/ Cost per Unit" />
          </columns>
       </TableView>
-      <TextField layoutX="738.0" layoutY="25.0" promptText="Search by Part ID or Name" />
-      <Button layoutX="719.0" layoutY="397.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Remove Associated Part" />
-      <Button layoutX="719.0" layoutY="444.0" mnemonicParsing="false" text="Save " />
+      <TextField fx:id="addProdSearchTf" layoutX="738.0" layoutY="25.0" onAction="#addProdSearched" promptText="Search by Part ID or Name" />
+      <Button fx:id="addProdRemoveAssociatedBut" layoutX="719.0" layoutY="397.0" mnemonicParsing="false" onAction="#addProdRemoveAssocPartClick" prefHeight="25.0" prefWidth="149.0" text="Remove Associated Part" />
+      <Button fx:id="modPartSaveBut" layoutX="719.0" layoutY="444.0" mnemonicParsing="false" onAction="#addProdSaveButClick" text="Save " />
       <Button fx:id="addProdCancelBut" layoutX="816.0" layoutY="444.0" mnemonicParsing="false" onAction="#addProdCancelClick" text="Cancel" />
-      <Button layoutX="813.0" layoutY="209.0" mnemonicParsing="false" text="Add" />
+      <Button fx:id="addProdAddBut" layoutX="813.0" layoutY="209.0" mnemonicParsing="false" onAction="#addProdAddButClick" text="Add" />
    </children>
 </AnchorPane>

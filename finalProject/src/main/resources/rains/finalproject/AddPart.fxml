@@ -6,14 +6,17 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="663.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddPartController">
    <children>
-      <RadioButton layoutX="190.0" layoutY="78.0" mnemonicParsing="false" text="In-house" />
-      <RadioButton layoutX="368.0" layoutY="78.0" mnemonicParsing="false" text="Outsourced" />
+      <RadioButton fx:id="addInHouseRadioBut" layoutX="190.0" layoutY="78.0" mnemonicParsing="false" onAction="#addInHouseRadioButSelected" selected="true" text="In-house">
+         <toggleGroup>
+            <ToggleGroup fx:id="addPartRadios" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="addOutSourcedRadioBut" layoutX="368.0" layoutY="78.0" mnemonicParsing="false" onAction="#addOutSourceRadioButtonSelected" selected="true" text="Outsourced" toggleGroup="$addPartRadios" />
       <Label layoutX="66.0" layoutY="78.0" text="Add Part">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <TextField fx:id="addPartId" layoutX="190.0" layoutY="172.0" />
+      <TextField fx:id="addPartId" disable="true" editable="false" layoutX="190.0" layoutY="172.0" promptText="Auto Generated ID" />
       <TextField fx:id="addPartName" layoutX="190.0" layoutY="213.0" />
       <TextField fx:id="addPartInv" layoutX="190.0" layoutY="254.0" />
       <TextField fx:id="addPartPrice" layoutX="190.0" layoutY="294.0" />
@@ -25,9 +28,9 @@
       <Label layoutX="88.0" layoutY="258.0" text="Inv" />
       <Label layoutX="88.0" layoutY="298.0" text="Price/Cost" />
       <Label layoutX="88.0" layoutY="336.0" text="Max" />
-      <Label layoutX="88.0" layoutY="372.0" text="Machine ID" />
+      <Label fx:id="addPartLabel" layoutX="88.0" layoutY="372.0" text="Company Name" />
       <Label layoutX="368.0" layoutY="336.0" text="Min" />
-      <Button layoutX="356.0" layoutY="465.0" mnemonicParsing="false" text="Save" />
+      <Button fx:id="addPartSaveBut" layoutX="356.0" layoutY="465.0" mnemonicParsing="false" onAction="#onAddPartSave" text="Save" />
       <Button fx:id="addPartCancelBut" layoutX="429.0" layoutY="465.0" mnemonicParsing="false" onAction="#addPartCancelClick" text="Cancel" />
    </children>
 </AnchorPane>

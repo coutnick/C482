@@ -11,23 +11,26 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <RadioButton layoutX="190.0" layoutY="78.0" mnemonicParsing="false" text="In-House" />
-      <RadioButton layoutX="348.0" layoutY="78.0" mnemonicParsing="false" text="Outsourced" />
+      <RadioButton fx:id="partModInHouseRadio" layoutX="190.0" layoutY="78.0" mnemonicParsing="false" onAction="#modPartInHouseSelected" selected="true" text="In-House">
+         <toggleGroup>
+            <ToggleGroup fx:id="modPartRadios" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="partModOutsourcedRadioBut" layoutX="348.0" layoutY="78.0" mnemonicParsing="false" onAction="#modPartOutSourcedSelected" selected="true" text="Outsourced" toggleGroup="$modPartRadios" />
       <Label layoutX="88.0" layoutY="176.0" text="ID" />
       <Label layoutX="88.0" layoutY="217.0" text="Name" />
       <Label layoutX="88.0" layoutY="258.0" text="Inv" />
       <Label layoutX="88.0" layoutY="298.0" text="Price/Cost" />
       <Label layoutX="88.0" layoutY="336.0" text="Max" />
-      <Label layoutX="88.0" layoutY="376.0" text="Machine ID" />
-      <TextField layoutX="190.0" layoutY="172.0" />
-      <TextField layoutX="190.0" layoutY="213.0" />
-      <TextField layoutX="190.0" layoutY="254.0" />
-      <TextField layoutX="190.0" layoutY="294.0" />
-      <TextField layoutX="190.0" layoutY="332.0" />
-      <TextField layoutX="190.0" layoutY="368.0" />
+      <Label fx:id="modPartMachineIdLbl" layoutX="88.0" layoutY="376.0" text="Machine ID" />
+      <TextField fx:id="modPartIDTf" disable="true" editable="false" layoutX="190.0" layoutY="172.0" />
+      <TextField fx:id="modPartNameTf" layoutX="190.0" layoutY="213.0" />
+      <TextField fx:id="modPartInvTf" layoutX="190.0" layoutY="254.0" />
+      <TextField fx:id="modPartPriceTf" layoutX="190.0" layoutY="294.0" />
+      <TextField fx:id="modPartMaxTf" layoutX="190.0" layoutY="332.0" />
+      <TextField fx:id="modPartMachineIdTf" layoutX="190.0" layoutY="368.0" />
       <Label layoutX="368.0" layoutY="336.0" text="Min" />
-      <TextField layoutX="427.0" layoutY="332.0" />
-      <Button layoutX="356.0" layoutY="465.0" mnemonicParsing="false" text="Save" />
+      <TextField fx:id="modPartMinTf" layoutX="427.0" layoutY="332.0" />
+      <Button fx:id="modPartSaveBut" layoutX="356.0" layoutY="465.0" mnemonicParsing="false" onAction="#modPartSaveButClick" text="Save" />
       <Button fx:id="modPartCancelBut" layoutX="429.0" layoutY="465.0" mnemonicParsing="false" onAction="#modPartCancelClick" text="Cancel" />
    </children>
 </AnchorPane>

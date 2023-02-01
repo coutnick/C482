@@ -3,7 +3,7 @@ package model; /**
  */
 
 /**
- *
+ * Part class supplied by WGU
  * @author Nicholas Rains
  */
 public abstract class Part {

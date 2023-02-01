@@ -1,3 +1,7 @@
+/**
+ * Module for the Inventory Management Program
+ * @author Nicholas Rains
+ */
 module rains.finalproject {
     requires javafx.controls;
     requires javafx.fxml;

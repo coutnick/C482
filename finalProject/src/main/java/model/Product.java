@@ -84,7 +84,7 @@ public class Product{
      * Getter for the products ID
      * @return ID of the product
      */
-    public int getID(){
+    public int getId(){
         return id;
     }
     /** Getter for the products name
@@ -131,7 +131,7 @@ public class Product{
     /**
      * Deletes a product from the associated parts list if it is there
      * @param selectedAssociatedPart a part that is trying to be removed
-     * @returns true if the part is deleted
+     * @return true if the part is deleted
      */
     public boolean deleteAssociatedPart(Part selectedAssociatedPart){
         if(associatedParts.contains(selectedAssociatedPart)){
@@ -145,7 +145,6 @@ public class Product{
      * Getter for a list of associated parts for the product
      * @return list of parts
      */
-    public ObservableList<Part> getAssociatedParts() {
-        return associatedParts;
-    }
+    public ObservableList<Part> getAssociatedParts() {return associatedParts;}
+
 }

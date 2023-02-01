@@ -1,10 +1,15 @@
 package model;
 
+/**
+ * OutSourced class that inherits traits from the Part class
+ * @author Nicholas Rains
+ */
+
 public class Outsourced extends Part{
     private String companyName;
 
     /**
-     * Contructer for the Outsourced object
+     * Constructor for the Outsourced object
      * @param id id of the part
      * @param name name of the part
      * @param price price of the part
